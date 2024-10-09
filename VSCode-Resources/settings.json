@@ -1,0 +1,17 @@
+{
+    "vim.useSystemClipboard": true,
+    "editor.lineNumbers": "relative",
+
+    "python.analysis.extraPaths":[
+        "C:/Users/tford/dev/*",
+        "c:/users/tford/appdata/local/miniconda3/envs/deg/lib/site-packages/*",
+    ],
+
+    "python.autoComplete.extraPaths": [
+        "C:/Users/tford/dev/*",
+        "c:/users/tford/appdata/local/miniconda3/envs/deg/lib/site-packages/*",
+    ],
+
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "Monokai"
+}

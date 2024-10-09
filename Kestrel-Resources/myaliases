@@ -1,0 +1,29 @@
+#Show my running and queued jobs in useful format
+alias sq='squeue -u $USER --format='\''%10A%15l%15L%6D%20S%15P%15r%20V%N'\'''
+
+#Kill all my running and queued jobs
+alias killjobs="scancel -u $USER"
+
+#Get a list of available modules
+alias ma='module avail'
+
+#Get the "source" for a git repository
+alias git-home='git remote show origin'
+
+#Get a compact list of loaded modules
+alias mlist='module list 2>&1 |  egrep -v "Current|No modules loaded" | sed "s/..)//g"'
+
+#Start Compute Node
+alias node-pvdeg='salloc --time=240 --account=pvfem --partition=shared --ntasks=26 --mem-per-cpu=2000 --nodes=1'
+
+#Start Debug Node
+alias node-debug='salloc --time=60 --account=pvfem --partition=debug --nodes=1'
+
+#Start Jupyter
+alias start-jupyter='jupyter-notebook --no-browser --ip=$(hostname -s)'
+
+#Clear
+alias c='clear'
+
+#Git Status
+alias st='git status'
