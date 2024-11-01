@@ -25,3 +25,6 @@ Visit http://localhost:8888/
 ## User Configurations
 [myaliases](myaliases)
 [mymods](mymods)
+
+## Config Files
+[vimrc](.vimrc)
