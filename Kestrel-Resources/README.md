@@ -2,6 +2,13 @@
 
 ## Running Jupyter on a Compute Node
 
+*The Easy Way*  
+`ssh -L <local_port>:<compute_node>:<remote_port> <username>@<hpc_login_node>`  
+for example: `10.150.8.40` is the compute node ip  
+`ssh -L 8787:10.150.8.40:8787 tford@kestrel.hpc.nrel.gov`  
+
+
+
 1. Start the compute node  
 `salloc --time=240 --account=pvfem --partition=shared --ntasks=26 --mem-per-cpu=2000 --nodes=1` - shared node  
 Aliased by `node-pvdeg`
