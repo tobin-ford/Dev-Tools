@@ -30,8 +30,11 @@ FOR ME: `ssh -L 8888:localhost:8888 tford@kestrel.hpc.nrel.gov`
 Visit http://localhost:8888/
 
 ## User Configurations
-[myaliases](myaliases)
+[myaliases](myaliases)  
 [mymods](mymods)
 
 ## Config Files
 [vimrc](.vimrc)
+
+## Scripts
+[hpc-forward](hpc-forward.py) - simple port forwarding utility for NREL Kestrel  
